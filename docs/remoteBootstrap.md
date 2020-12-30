@@ -46,7 +46,7 @@ get the OAuth tokens to access the `Hue Remote API`.
 const v3 = require('node-hue-api').v3;
 
 const remoteBootstrap = v3.api.createRemote(clientId, clientSecret);
-console.log(remoteBootstrap.getAuthCodeUrl());
+console.log(remoteBootstrap.getAuthCodeUrl(deviceId, appId, state));
 ```
 
 The call will return a `String` which is the URL that your end user needs to follow in the browser to perform the 
