@@ -11,7 +11,7 @@ and a number of useful functions to control/configure its various features.
 The library fully supports `local network` and `remote internet` access to the Hue Bridge API and has 100% coverage of the 
 documented Hue API.
 
-
+/////////////////////////////////////////////////////////////////////////////
 ## Contents
 - [Change Log](#change-log) 
 - [Installation](#installation)
